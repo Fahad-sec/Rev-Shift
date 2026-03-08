@@ -5,15 +5,15 @@ using UnityEngine.Rendering;
 public class carController : MonoBehaviour
 {
     public WheelCollider frontLeft, frontRight, rearLeft, rearRight;
-    public float motorForce = 1500f;
-    public float maxSteerAngle = 30f;
-    public float brakeForce = 3000f;
+    public float motorForce = 2500f;
+    public float maxSteerAngle = 40f;
+    public float brakeForce = 5000f;
 
     public float moveInput;
     public float steerInput;
     public bool isBraking;
 
-
+   
     public void OnMove(InputValue value)
     {
         Vector2 inputVec = value.Get<Vector2>();
