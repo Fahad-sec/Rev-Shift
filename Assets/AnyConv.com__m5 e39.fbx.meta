@@ -1,9 +1,371 @@
 fileFormatVersion: 2
 guid: 4575157564f743048bf0f3ca5baebdfb
+labels:
+- Vehicle
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: A2Mtl
+    second: {fileID: 2100000, guid: c85d8983947a75644a9f94b1f89bf84c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: A3Mtl
+    second: {fileID: 2100000, guid: f3ffdd522271dce4e92d40af983c82b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlackreAmemiya1Mtl
+    second: {fileID: 2100000, guid: 0f3f47b08cca71a4f879e175c98cd70b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bolts1Mtl
+    second: {fileID: 2100000, guid: ed23cde1a18565643841a58649518607, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brakeclutch1Mtl
+    second: {fileID: 2100000, guid: 31d9fde8753b1f849bbfb39b007f4063, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: C1Mtl
+    second: {fileID: 2100000, guid: 3d59f6c137fec6140867ccfd046c65b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cupper1Mtl
+    second: {fileID: 2100000, guid: 8ba8a4f002bff7d44a236af8a5fc7aad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Disc1Mtl
+    second: {fileID: 2100000, guid: edbc2bedeb81f834c998801d86053a32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Engineblock0011Mtl
+    second: {fileID: 2100000, guid: f81e13d1f68cf754bba5fb9d724c126c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Engineblock0021Mtl
+    second: {fileID: 2100000, guid: 7cc3cec0a22e21c4ab41c907827a1419, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Engineblock0031Mtl
+    second: {fileID: 2100000, guid: 51e1bd875aeb8bd4bb454b2652f0802e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FrontBody2Mtl
+    second: {fileID: 2100000, guid: 35a7848a33d637641a5122cc32a38a14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FuelPressure1Mtl
+    second: {fileID: 2100000, guid: 16b9113561e9b0748b2b19cb94775b00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass11Mtl
+    second: {fileID: 2100000, guid: e6d54d85fa1cdd747882d19ab0b04cca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass1Mtl
+    second: {fileID: 2100000, guid: 9c0e8d81283add44a9bbf24cea22b487, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass21Mtl
+    second: {fileID: 2100000, guid: 6a118775b2022074db278466f1d28713, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass2Mtl
+    second: {fileID: 2100000, guid: 4147deeba6376024a8c6b82543052ec8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HoodBadge1Mtl
+    second: {fileID: 2100000, guid: ecb6a8857064d664d83325115fc1ff25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hub1Mtl
+    second: {fileID: 2100000, guid: e2b490dd4128d4549ac82f2298a9b946, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior1Mtl
+    second: {fileID: 2100000, guid: 68e34874b5242614bacf2abcf8690043, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior2Mtl
+    second: {fileID: 2100000, guid: 129c755023dc41940849648139407a1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior4Mtl
+    second: {fileID: 2100000, guid: f2ae1e7d8c7d28b46ac58dc06640c2bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L1Mtl
+    second: {fileID: 2100000, guid: 561137dedc8bc3a4d84fac3ab68e5377, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LeftPiping1Mtl
+    second: {fileID: 2100000, guid: efa05c0543b8a0c4eb007ab50cda724d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ln14Mtl
+    second: {fileID: 2100000, guid: c79ad2b00a8e8bf419944aa550d42088, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesbmwbody002body0111Mtl
+    second: {fileID: 2100000, guid: 5b76f3649dbdb8847b4706f5c8cb7d0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesbmwbumper003bumper0172Mtl
+    second: {fileID: 2100000, guid: 6bf83504de627cf43a5d744e9a91a4b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesbmwbumper008bumper0141Mtl
+    second: {fileID: 2100000, guid: 2ce256408befba54f920a37b619715e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesbmwexhaust2exhaust20071Mtl
+    second: {fileID: 2100000, guid: ad415dee42901b34f8ecb054ad90a023, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesbmwglasslhlglasslhl0021Mtl
+    second: {fileID: 2100000, guid: 4b350d151c2fd164588484cb3cac6e22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesbmwheadlights0001headlights00201Mtl
+    second: {fileID: 2100000, guid: 0f71b19aa3df31e40bfc32a685f788b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesbmwheadlights0009headlights00191Mtl
+    second: {fileID: 2100000, guid: 91923fe1ace8fab419744696080c220b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesbmwsteklosteklo0021Mtl
+    second: {fileID: 2100000, guid: 15788be2fe78f5a48af5e0e7b43b04c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesbmwtrunkbadge0trunkbadge00051Mtl
+    second: {fileID: 2100000, guid: 435dcf1ab1d5502418eb8e77c3d65dd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesbmwtrunkbadge0trunkbadge00052Mtl
+    second: {fileID: 2100000, guid: 8cd0a43a0cbb16a42977764f3ffcf576, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesbnr34interior0131Mtl
+    second: {fileID: 2100000, guid: a7a8e93a44368bd4aaf88cb434ed6ebe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesbnr34interior0171Mtl
+    second: {fileID: 2100000, guid: 31d16359c232ae0439643bea35fe9a90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesbnr34interior0181Mtl
+    second: {fileID: 2100000, guid: 5a35f7bfd5cb9f14c845d7dc8480e644, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesbnr34interior0211Mtl
+    second: {fileID: 2100000, guid: dc1dfda04f7ba2348a5ab5f3050932fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesbnr34interior0221Mtl
+    second: {fileID: 2100000, guid: d6cd530ad752666459c0204f21e7cbe1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesbnr34interior0231Mtl
+    second: {fileID: 2100000, guid: a7476e94ab254ae4ca2b82d21d5d7226, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesbnr34interior0241Mtl
+    second: {fileID: 2100000, guid: 6d02935f16187e440aa8112c542d62d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesbnr34interior0251Mtl
+    second: {fileID: 2100000, guid: 7c4d2baa07c646d408f2cb5f4ef639b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshesinteriorarrow21Mtl
+    second: {fileID: 2100000, guid: 94654f48354c48042a4b9ca5a4490362, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshpart10Mtl
+    second: {fileID: 2100000, guid: 23c47f9a30e8e8d479c4a74604625bb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshpart1Mtl
+    second: {fileID: 2100000, guid: 01bc36ee69df5d243afb7d14abf8bb9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshpart23Mtl
+    second: {fileID: 2100000, guid: 58d62dc595d5782418a7ea1f0bdb52e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshpart28Mtl
+    second: {fileID: 2100000, guid: 3cc56cd07676aac43a8c04170c8b8e95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshpart2Mtl
+    second: {fileID: 2100000, guid: 4f0b1b4111d178645bad22e853de414b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshpart3Mtl
+    second: {fileID: 2100000, guid: 3f59e62516fe78a4ca20452aa6a76d12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshpart4Mtl
+    second: {fileID: 2100000, guid: f454da05861cfb54ebbcf7afae02b215, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshpart6Mtl
+    second: {fileID: 2100000, guid: 8be610ccd0a9c5b43b3369a156d10e17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meshpart7Mtl
+    second: {fileID: 2100000, guid: 0ea8324e91000e74a9dbdfd4aa32e7d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mirror1Mtl
+    second: {fileID: 2100000, guid: 5e345e2d70b5280439c334b2958eafba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MountPart1Mtl
+    second: {fileID: 2100000, guid: 3219f08b447d3bf4e80c37f8a4250355, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PowermodeButton1Mtl
+    second: {fileID: 2100000, guid: 968bbcfa34ddc364385545890ac37e65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PowermodeButton2Mtl
+    second: {fileID: 2100000, guid: 7680b7f88a887a64fba9b78a4afa9edb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RearBodyAndCamera1Mtl
+    second: {fileID: 2100000, guid: 20862d2567462a34f93604474a709a00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: S1Mtl
+    second: {fileID: 2100000, guid: 7156f8f28e176ff43bd14e6ac0be4717, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Screen1Mtl
+    second: {fileID: 2100000, guid: fd2fb79ef0eb38843ba33be6d0d382d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Screw2Mtl
+    second: {fileID: 2100000, guid: c9a360923dc595c47abcdd9b99678a85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Spoke1Mtl
+    second: {fileID: 2100000, guid: 5f14e4287d233d34385c9c832d16d392, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Springtop1Mtl
+    second: {fileID: 2100000, guid: 3eecd40d398698d4d8e6a5d98ade1d3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StarRoof1Mtl
+    second: {fileID: 2100000, guid: e816081ffca28714a9dac26c0727b3cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Text10Mtl
+    second: {fileID: 2100000, guid: 28546fd1b81365641af35273e452addf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Text1Mtl
+    second: {fileID: 2100000, guid: ffc8bcba8a5b17348be85335f4e53188, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Text2Mtl
+    second: {fileID: 2100000, guid: c0384e637b31da449abd6b619b2cb6c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Text8Mtl
+    second: {fileID: 2100000, guid: 249d95ba1a6282842a55ab0e69118d82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tire1Mtl
+    second: {fileID: 2100000, guid: e2be6d654e0c8f3438e2e3e3808a0643, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Union1Mtl
+    second: {fileID: 2100000, guid: 633a6f17ac7f7604a9052a5e97310852, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Upperarm1Mtl
+    second: {fileID: 2100000, guid: 9acb94b306798b84bb717e4744e2d693, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Upperarmb1Mtl
+    second: {fileID: 2100000, guid: b964c32ca6378f4498d18cd30d9f2187, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
